@@ -36,6 +36,7 @@ fs.access(inputPath, fs.constants.R_OK, (err) => {
   startServer();
 });
 
+// Перетворює числові рядки у числа, повертає null, якщо значення відсутнє
 function toNumber(value) {
   if (value === null || value === undefined) return null;
   if (typeof value === 'string' && value.trim() === '') return null;
