@@ -1,0 +1,16 @@
+{
+  "name": "Lab4",
+  "version": "1.0.0",
+  "description": "Lab 4 - HTTP server on Node.js (variant 7: weather.json)",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "author": "Dunas_Oleg_Lab4",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
