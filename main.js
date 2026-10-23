@@ -64,6 +64,7 @@ function sendError(res, status, message) {
   sendJson(res, status, { error: message });
 }
 
+// Фільтрує записи за minRainfall та формує масив з потрібними полями
 function processData(rows, showHumidity, minRainfall) {
   const filtered =
     minRainfall === null
