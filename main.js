@@ -44,6 +44,7 @@ function toNumber(value) {
   return Number.isFinite(n) ? n : null;
 }
 
+// Формує та відправляє JSON-відповідь, за потреби записує у файл
 function sendJson(res, status, payload) {
   const body = JSON.stringify(payload);
 
